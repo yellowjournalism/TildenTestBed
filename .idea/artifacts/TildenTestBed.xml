@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TildenTestBed">
+    <output-path>$USER_HOME$/Desktop/cbserver/plugins/update</output-path>
+    <root id="archive" name="TildenTestBed.jar">
+      <element id="module-output" name="TildenTestBed" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

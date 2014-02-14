@@ -1,0 +1,24 @@
+name: TildenTestBed
+main: com.tildenprep.tildentestbed.TildenTestBed
+version: 1.0
+author: Tilden Prep
+description: -no desc-
+
+commands:
+   blah:
+      description: This is a blah.
+      usage: /<command>
+      permission: com.tildenprep.tildentestbed.TildenTestBed.blah
+      permission-message: You don't have <permission>
+
+   ignite:
+      description: This a fire thing.
+      usage: /<command>
+      permission: com.tildenprep.tildentestbed.TildenTestBed.ignite
+      permission-message: You don't have <permission>
+
+   fly:
+         description: Toggles players ability to fly.
+         usage: /<command>
+         permission: com.tildenprep.tildentestbed.TildenTestBed.fly
+         permission-message: You don't have <permission>
